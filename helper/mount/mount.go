@@ -1,15 +1,20 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:57.421562389 +0200 CEST m=+0.041271547
+- Status: analyzed
+*/
+
 package mount
 
 import (
+	"fmt"
 	"io"
 	"os"
 	"path/filepath"
 	"strings"
 
-	"fmt"
-
-	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-billy.v4/helper/polyfill"
+	"github.com/sniperkit/snk.fork.go-billy.v4"
+	"github.com/sniperkit/snk.fork.go-billy.v4/helper/polyfill"
 )
 
 var separator = string(filepath.Separator)

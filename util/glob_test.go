@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:57.421562389 +0200 CEST m=+0.041271547
+- Status: analyzed
+*/
+
 package util_test
 
 import (
@@ -6,8 +12,9 @@ import (
 	"testing"
 
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-billy.v4/memfs"
-	"gopkg.in/src-d/go-billy.v4/util"
+
+	"github.com/sniperkit/snk.fork.go-billy.v4/memfs"
+	"github.com/sniperkit/snk.fork.go-billy.v4/util"
 )
 
 func Test(t *testing.T) { TestingT(t) }

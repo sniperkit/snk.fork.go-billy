@@ -1,5 +1,11 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:57.421562389 +0200 CEST m=+0.041271547
+- Status: analyzed
+*/
+
 // Package memfs provides a billy filesystem base on memory.
-package memfs // import "gopkg.in/src-d/go-billy.v4/memfs"
+package memfs // import "github.com/sniperkit/snk.fork.go-billy.v4/memfs"
 
 import (
 	"errors"
@@ -10,9 +16,9 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-billy.v4/helper/chroot"
-	"gopkg.in/src-d/go-billy.v4/util"
+	"github.com/sniperkit/snk.fork.go-billy.v4"
+	"github.com/sniperkit/snk.fork.go-billy.v4/helper/chroot"
+	"github.com/sniperkit/snk.fork.go-billy.v4/util"
 )
 
 const separator = filepath.Separator

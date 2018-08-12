@@ -1,10 +1,16 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:57.421562389 +0200 CEST m=+0.041271547
+- Status: analyzed
+*/
+
 package polyfill
 
 import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-billy.v4"
+	"github.com/sniperkit/snk.fork.go-billy.v4"
 )
 
 // Polyfill is a helper that implements all missing method from billy.Filesystem.

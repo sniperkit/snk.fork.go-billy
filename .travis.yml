@@ -1,10 +1,14 @@
+# Sniperkit-Bot
+# - Date: 2018-08-12 12:10:57.421452073 +0200 CEST m=+0.041161234
+# - Status: analyzed
+
 language: go
 
 go:
   - 1.9.x
   - 1.10.x
 
-go_import_path: gopkg.in/src-d/go-billy.v4
+go_import_path: github.com/sniperkit/snk.fork.go-billy.v4
 
 install:
   - go get -v -t ./...

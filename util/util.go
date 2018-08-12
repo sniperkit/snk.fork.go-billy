@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:57.421562389 +0200 CEST m=+0.041271547
+- Status: analyzed
+*/
+
 package util
 
 import (
@@ -8,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/src-d/go-billy.v4"
+	"github.com/sniperkit/snk.fork.go-billy.v4"
 )
 
 // RemoveAll removes path and any children it contains. It removes everything it

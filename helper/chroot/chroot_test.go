@@ -1,3 +1,9 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:57.421562389 +0200 CEST m=+0.041271547
+- Status: analyzed
+*/
+
 package chroot
 
 import (
@@ -5,10 +11,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-billy.v4/test"
-
 	. "gopkg.in/check.v1"
+
+	"github.com/sniperkit/snk.fork.go-billy.v4"
+	"github.com/sniperkit/snk.fork.go-billy.v4/test"
 )
 
 func Test(t *testing.T) { TestingT(t) }

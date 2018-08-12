@@ -1,5 +1,11 @@
+/*
+Sniperkit-Bot
+- Date: 2018-08-12 12:10:57.421562389 +0200 CEST m=+0.041271547
+- Status: analyzed
+*/
+
 // Package osfs provides a billy filesystem for the OS.
-package osfs // import "gopkg.in/src-d/go-billy.v4/osfs"
+package osfs // import "github.com/sniperkit/snk.fork.go-billy.v4/osfs"
 
 import (
 	"io/ioutil"
@@ -7,8 +13,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-billy.v4/helper/chroot"
+	"github.com/sniperkit/snk.fork.go-billy.v4"
+	"github.com/sniperkit/snk.fork.go-billy.v4/helper/chroot"
 )
 
 const (
