@@ -12,6 +12,7 @@ import (
 	. "gopkg.in/check.v1"
 
 	. "github.com/sniperkit/snk.fork.go-billy.v4"
+
 	"github.com/sniperkit/snk.fork.go-billy.v4/test"
 )
 
